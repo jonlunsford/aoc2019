@@ -15,7 +15,7 @@ defmodule MassSumTest do
   use ExUnit.Case
 
   setup do
-    file_name = "input-test.txt"
+    file_name = "01/input-test.txt"
     File.write(file_name, "12\n14\n1969\n100756\n")
     {:ok, %{file_name: file_name}}
   end
