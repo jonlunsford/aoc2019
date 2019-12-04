@@ -57,7 +57,7 @@ end
 
 ExUnit.start()
 
-defmodule IntcodeTest do
+defmodule Day02Test do
   use ExUnit.Case
 
   test "part1" do
